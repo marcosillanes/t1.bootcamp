@@ -10,14 +10,25 @@
     <form action="otro.html" method="get">
         <div>
             <label for="NombredeUsuario">Nombre de Usuario</label>
-            <input name="NombredeUsuario" id="NombredeUsuario"> <br>
+            <input name="NombredeUsuario" id="NombredeUsuario" required type="text"> <br>
+        </div>
+        <div>
+            <label for="Edad">Edad</label>
+            <input name="Edad" id="Edad" type="number" required > <br>
+        </div>
+        <div>
+            <label for="frase-favorita">Frase Favorita</label>
+            <textarea name="frase-favorita" id="frase-favorita"></textarea> <br>
         </div>
         <div>    
             <label for="contraseña">Contraseña</label>
-            <input name="contraseña" id="contraseña" type="password"> <br>
+            <input name="contraseña" id="contraseña" type="password" required> <br>
         </div>
         <div>
-            <button>Enviar</button>
+            <button type="submit">Enviar</button>
+        </div>
+        <div>
+            <button type="reset">reset</button>
         </div>
 
 
